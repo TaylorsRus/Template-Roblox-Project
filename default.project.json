@@ -7,85 +7,34 @@
       "$path": "src/shared",
 
       "Animations": {
-        "$className": "Folder",
-        "TemplateAnimation": {
-          "$className": "Animation"
-        }
+        "$className": "Folder"
       },
-
       "Classes": {
-        "$className": "Folder",
-        "TemplateClass": {
-          "$className": "ModuleScript"
-        }
+        "$className": "Folder"
       },
-
       "Libraries": {
-        "$className": "Folder",
-        "TemplateLibrary": {
-          "$className": "ModuleScript"
-        }
+        "$className": "Folder"
       },
-
       "Packages": {
-        "$className": "Folder",
-        "TemplatePackage": {
-          "$className": "ModuleScript"
-        }
+        "$className": "Folder"
       },
-
       "Particles": {
-        "$className": "Folder",
-        "TemplateEffect": {
-          "$className": "Part",
-          "Attachment": {
-            "$className": "Attachment",
-            "ParticleEmitter": {
-              "$className": "ParticleEmitter"
-            }
-          }
-        }
+        "$className": "Folder"
       },
-
       "Remotes": {
-        "$className": "Folder",
-        "TemplateEvent": {
-          "$className": "RemoteEvent"
-        },
-        "TemplateFunction": {
-          "$className": "RemoteFunction"
-        }
+        "$className": "Folder"
       },
-
       "Sounds": {
-        "$className": "Folder",
-        "TemplateSound": {
-          "$className": "Sound"
-        }
+        "$className": "Folder"
       },
-
       "Config": {
-        "$className": "Configuration",
-        "TemplateConfig": {
-          "$className": "ModuleScript"
-        }
+        "$className": "Configuration"
       }
     },
 
     "ServerScriptService": {
-      "$path": "src/server"
+      "$path": "src/server"                  
     },
-
-    "StarterGui": {
-      "$className": "StarterGui",
-      "TemplateInterface": {
-        "$className": "ScreenGui",
-        "Frame": {
-          "$className": "Frame"
-        }
-      }
-    },
-
     "StarterPlayer": {
       "StarterPlayerScripts": {
         "$path": "src/client"
