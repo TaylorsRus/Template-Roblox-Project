@@ -1,0 +1,95 @@
+{
+  "name": "Template Roblox Project",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$path": "src/shared",
+
+      "Animations": {
+        "$className": "Folder",
+        "TemplateAnimation": {
+          "$className": "Animation"
+        }
+      },
+
+      "Classes": {
+        "$className": "Folder",
+        "TemplateClass": {
+          "$className": "ModuleScript"
+        }
+      },
+
+      "Libraries": {
+        "$className": "Folder",
+        "TemplateLibrary": {
+          "$className": "ModuleScript"
+        }
+      },
+
+      "Packages": {
+        "$className": "Folder",
+        "TemplatePackage": {
+          "$className": "ModuleScript"
+        }
+      },
+
+      "Particles": {
+        "$className": "Folder",
+        "TemplateEffect": {
+          "$className": "Part",
+          "Attachment": {
+            "$className": "Attachment",
+            "ParticleEmitter": {
+              "$className": "ParticleEmitter"
+            }
+          }
+        }
+      },
+
+      "Remotes": {
+        "$className": "Folder",
+        "TemplateEvent": {
+          "$className": "RemoteEvent"
+        },
+        "TemplateFunction": {
+          "$className": "RemoteFunction"
+        }
+      },
+
+      "Sounds": {
+        "$className": "Folder",
+        "TemplateSound": {
+          "$className": "Sound"
+        }
+      },
+
+      "Config": {
+        "$className": "Configuration",
+        "TemplateConfig": {
+          "$className": "ModuleScript"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "TemplateInterface": {
+        "$className": "ScreenGui",
+        "Frame": {
+          "$className": "Frame"
+        }
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      }
+    }
+  }
+}
