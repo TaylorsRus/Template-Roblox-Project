@@ -6,16 +6,10 @@
     "ReplicatedStorage": {
       "$path": "src/Shared",
 
+      "Config": {
+        "$className": "Configuration"
+      },
       "Animations": {
-        "$className": "Folder"
-      },
-      "Classes": {
-        "$className": "Folder"
-      },
-      "Libraries": {
-        "$className": "Folder"
-      },
-      "Packages": {
         "$className": "Folder"
       },
       "Particles": {
@@ -27,9 +21,6 @@
       "Sounds": {
         "$className": "Folder"
       },
-      "Config": {
-        "$className": "Configuration"
-      }
     },
 
     "ServerScriptService": {
