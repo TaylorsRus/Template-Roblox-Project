@@ -4,7 +4,7 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "$path": "src/shared",
+      "$path": "src/Shared",
 
       "Animations": {
         "$className": "Folder"
@@ -33,11 +33,11 @@
     },
 
     "ServerScriptService": {
-      "$path": "src/server"                  
+      "$path": "src/Server"                  
     },
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "$path": "src/client"
+        "$path": "src/Client"
       }
     }
   }
